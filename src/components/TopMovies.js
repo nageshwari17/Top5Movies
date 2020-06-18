@@ -21,7 +21,7 @@ const TopMovies = () => {
     <div className="container section">
       <QuickLinks setLink={setLink} />
       <OrderSelect select={select} setOrder={selectdOrder} />
-      <MovieList lists={lists} quicklink={quicklink} />
+      <MovieList lists={lists} quicklink={quicklink} setLink={setLink} />
     </div>
   );
 };

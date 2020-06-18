@@ -8,7 +8,7 @@ const OrderSelect = (props) => {
   return (
     <div className="row">
       <div className="col s12 order-select">
-        <div className="col s6  m3 l4">
+        <div className="col s12  m4 l4">
           <select onChange={handleChange}>
             <option value="">Sort By</option>
             {select &&

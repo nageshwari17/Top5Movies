@@ -24,11 +24,7 @@ select {
   overflow: hidden;
   width: 100%;
   bottom: -1000px;
-  transition: 0.5s ease;
-}
-
-.poster-boxs:hover .poster-overlay {
-  bottom: 0;
+  transition: 0.8s ease;
 }
 
 .poster-details {
@@ -78,6 +74,7 @@ select {
 .quicklink {
   position: fixed;
   right: 0px;
+  z-index: 999;
 }
 
 .quicklink > div {

@@ -9,7 +9,12 @@ const MovieList = (props) => {
       {lists &&
         lists.items.map((item, key) => {
           return (
-            <div className="col s12 m4" key={key}>
+            <div
+              className="col s12 m6 l4"
+              key={key}
+              onMouseOver={() => props.setLink(item.rank)}
+              onMouseOut={() => props.setLink(0)}
+            >
               <div
                 className={`card poster-boxs ${
                   quicklink === item.rank ? "selected" : ""
@@ -36,7 +41,7 @@ const MovieList = (props) => {
                           src={calendarIcon}
                           alt="calendarIcon"
                           className="icon"
-                        />{" "}
+                        />
                         &nbsp;
                         <span>{item.releaseDate}</span>
                       </div>
