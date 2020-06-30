@@ -14,11 +14,7 @@ export default (state = initialState, action) => {
         lists: {
           ...state.lists,
           items: state.lists.items.sort((a, b) => {
-            if (action.payload === "rank") {
-              return a[action.payload] > b[action.payload] ? 1 : -1;
-            } else {
-              return a[action.payload] < b[action.payload] ? 1 : -1;
-            }
+            return a[action.payload] > b[action.payload] ? 1 : -1;
           }),
         },
       };

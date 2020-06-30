@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import TopMovies from "./components/TopMovies";
-import "./css/App.css";
+import "./scss/styles.css";
 
 function App() {
   return (

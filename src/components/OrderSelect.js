@@ -5,10 +5,11 @@ const OrderSelect = (props) => {
   const handleChange = (e) => {
     setOrder(e.target.value);
   };
+  const x =10;
   return (
     <div className="row">
       <div className="col s12 order-select">
-        <div className="col s12  m4 l4">
+        <div className="col s12 m6 l4">
           <select onChange={handleChange}>
             <option value="">Sort By</option>
             {select &&
