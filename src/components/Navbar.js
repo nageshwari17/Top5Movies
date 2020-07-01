@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="nav-wrap red">
+    <nav className="nav-wrap red" data-testid="navbar">
       <div className="container">
         <a href="/#" className="brand-logo">
           Top Movies

@@ -1,5 +1,5 @@
-import data from "../db.json";
-const [select, list] = data.components;
+import data from '../db.json';
+const [ select, list ] = data.components;
 
 const initialState = {
   select: select,
@@ -8,7 +8,7 @@ const initialState = {
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case "SORT":
+    case 'SORT':
       return {
         ...state,
         lists: {
@@ -24,6 +24,6 @@ export default (state = initialState, action) => {
 };
 
 export const sortlist = (orderBy) => ({
-  type: "SORT",
+  type: 'SORT',
   payload: orderBy,
 });

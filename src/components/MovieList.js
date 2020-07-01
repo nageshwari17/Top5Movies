@@ -1,9 +1,10 @@
-import React from "react";
-import rankIcon from "../assets/rank.png";
-import calendarIcon from "../assets/calendar.png";
+import React from 'react';
+import rankIcon from '../assets/rank.png';
+import calendarIcon from '../assets/calendar.png';
 
 const MovieList = (props) => {
   const { lists, quicklink } = props;
+ 
   return (
     <div className="row">
       {lists &&
@@ -17,7 +18,7 @@ const MovieList = (props) => {
             >
               <div
                 className={`card poster-boxs ${
-                  quicklink === item.rank ? "selected" : ""
+                  quicklink === item.rank ? 'selected' : ''
                 }`}
                 id={item.rank}
               >
@@ -25,6 +26,7 @@ const MovieList = (props) => {
                   className="responsive-img"
                   alt={item.title}
                   src={item.imageUrl}
+                  data-testid="image"
                 />
                 <div className="poster-overlay">
                   <div className="poster-details">

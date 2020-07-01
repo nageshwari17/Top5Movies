@@ -1,8 +1,8 @@
-import React from "react";
-import rankIcon from "../assets/rank.png";
+import React from 'react';
+import rankIcon from '../assets/rank.png';
 
 const QuickLinks = (props) => {
-  const links = [1, 2, 3, 4, 5];
+  const links = [ 1, 2, 3, 4, 5 ];
   return (
     <div className="quicklink">
       <div className="col s12">

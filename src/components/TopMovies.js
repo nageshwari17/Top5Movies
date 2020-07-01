@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import MovieList from "./MovieList";
-import OrderSelect from "./OrderSelect";
-import QuickLinks from "./quickLinks";
-import { sortlist } from "../reducers/movies";
+import React, { useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import MovieList from './MovieList';
+import OrderSelect from './OrderSelect';
+import QuickLinks from './quickLinks';
+import { sortlist } from '../reducers/movies';
 
 const TopMovies = () => {
   const { lists, select } = useSelector((state) => state.movies);
-  const [quicklink, setQuickLink] = useState(0);
+  const [ quicklink, setQuickLink ] = useState(0);
   const dispatch = useDispatch();
   const selectdOrder = (val) => {
     dispatch(sortlist(val));
