@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Top5Movies/static/css/main.4ac92a1e.chunk.css",
-    "main.js": "/Top5Movies/static/js/main.dc6617d2.chunk.js",
-    "main.js.map": "/Top5Movies/static/js/main.dc6617d2.chunk.js.map",
+    "main.css": "/Top5Movies/static/css/main.7215a96d.chunk.css",
+    "main.js": "/Top5Movies/static/js/main.ac8b4c65.chunk.js",
+    "main.js.map": "/Top5Movies/static/js/main.ac8b4c65.chunk.js.map",
     "runtime-main.js": "/Top5Movies/static/js/runtime-main.27d6b935.js",
     "runtime-main.js.map": "/Top5Movies/static/js/runtime-main.27d6b935.js.map",
     "static/js/2.880450f0.chunk.js": "/Top5Movies/static/js/2.880450f0.chunk.js",
     "static/js/2.880450f0.chunk.js.map": "/Top5Movies/static/js/2.880450f0.chunk.js.map",
     "index.html": "/Top5Movies/index.html",
-    "precache-manifest.924c50851bd64911c212ad871840bf5e.js": "/Top5Movies/precache-manifest.924c50851bd64911c212ad871840bf5e.js",
+    "precache-manifest.f030897fac79bf66480b2b57467e4a14.js": "/Top5Movies/precache-manifest.f030897fac79bf66480b2b57467e4a14.js",
     "service-worker.js": "/Top5Movies/service-worker.js",
-    "static/css/main.4ac92a1e.chunk.css.map": "/Top5Movies/static/css/main.4ac92a1e.chunk.css.map",
+    "static/css/main.7215a96d.chunk.css.map": "/Top5Movies/static/css/main.7215a96d.chunk.css.map",
     "static/js/2.880450f0.chunk.js.LICENSE.txt": "/Top5Movies/static/js/2.880450f0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.27d6b935.js",
     "static/js/2.880450f0.chunk.js",
-    "static/css/main.4ac92a1e.chunk.css",
-    "static/js/main.dc6617d2.chunk.js"
+    "static/css/main.7215a96d.chunk.css",
+    "static/js/main.ac8b4c65.chunk.js"
   ]
 }
