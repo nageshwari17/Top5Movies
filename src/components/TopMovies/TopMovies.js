@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import MovieList from './MovieList';
-import OrderSelect from './OrderSelect';
-import QuickLinks from './quickLinks';
-import { sortlist } from '../reducers/movies';
+import MovieList from '../MovieList';
+import OrderSelect from '../orderSelect/OrderSelect';
+import QuickLinks from '../quickLinks';
+import { sortlist } from '../../reducers/movies';
 
 const TopMovies = () => {
   const { lists, select } = useSelector((state) => state.movies);
@@ -18,7 +18,7 @@ const TopMovies = () => {
     setQuickLink(rank);
   };
   return (
-    <div className="container section">
+    <div className="container section" id="movieContainer">
       <QuickLinks setLink={setLink} />
       <OrderSelect select={select} setOrder={selectdOrder} />
       <MovieList lists={lists} quicklink={quicklink} setLink={setLink} />
